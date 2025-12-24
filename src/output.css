@@ -737,6 +737,10 @@
     border-top-style: var(--tw-border-style);
     border-top-width: 1px;
   }
+  .border-b-2 {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 2px;
+  }
   .border-\[1\.3p\] {
     border-color: 1.3p;
   }
@@ -878,6 +882,9 @@
   .py-24 {
     padding-block: calc(var(--spacing) * 24);
   }
+  .pb-1 {
+    padding-bottom: calc(var(--spacing) * 1);
+  }
   .pb-2 {
     padding-bottom: calc(var(--spacing) * 2);
   }
@@ -963,6 +970,9 @@
   }
   .text-amber-400 {
     color: var(--color-amber-400);
+  }
+  .text-amber-500 {
+    color: var(--color-amber-500);
   }
   .text-gray-400 {
     color: var(--color-gray-400);
