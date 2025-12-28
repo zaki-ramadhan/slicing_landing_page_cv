@@ -53,10 +53,10 @@
             </button>
         </div>
 
-        <div class="hidden md:flex space-x-10 text-sm font-medium">
+        <div class="hidden md:flex gap-x-10 text-sm font-medium">
             <a href="#introduction" @click="activeTab = 'introduction'"
                 :class="activeTab === 'introduction' ? 'border-b-2 border-amber-400 pb-1' : ''"
-                class="hover:text-gray-500 transition-all whitespace-nowrap">About</a>
+                class="hover:text-gray-500 transition-all ">About</a>
             <a href="#experience" @click="activeTab = 'experience'"
                 :class="activeTab === 'experience' ? 'border-b-2 border-amber-400 pb-1' : ''"
                 class="hover:text-gray-500 transition-all">Experience</a>
@@ -72,7 +72,7 @@
         </div>
 
         <div x-show="open" @click.away="open = false"
-            class="absolute top-full left-0 w-full bg-white shadow-lg md:hidden flex flex-col items-center py-4 space-y-3 border-t border-gray-100 z-50">
+            class="absolute top-full left-0 w-full bg-white shadow-lg md:hidden flex flex-col items-center py-4 gap-3 border-t border-gray-100 z-50">
             <a href="#introduction" @click="open = false; activeTab = 'introduction'"
                 :class="activeTab === 'introduction' ? 'text-amber-500 font-bold' : ''"
                 class="hover:text-gray-500 font-medium">About</a>
@@ -194,11 +194,11 @@
         <h2 class="text-4xl inline-block mb-12 relative">Experience<div
                 class="h-0.75 w-1/2 bg-amber-400 mx-auto mt-3 rounded-full"></div>
         </h2>
-        <div class="max-w-4xl mx-auto text-left space-y-12">
+        <div class="max-w-4xl mx-auto text-left gap-y-12">
             <div class="relative">
                 <span class="border border-gray-800 px-4 py-2 rounded-full text-xs font-bold">2024-Present</span>
                 <h3 class="text-xl mt-4 font-bold">Lead User research at Youthfulie</h3>
-                <ul class="mt-3 text-sm text-gray-500 list-disc ml-4 space-y-2">
+                <ul class="mt-3 text-sm text-gray-500 list-disc ml-4 gap-y-2">
                     <li>Led and defined user research strategy across multiple products to support data-driven decision
                         making.
                     </li>
@@ -210,7 +210,7 @@
             <div class="relative">
                 <span class="border border-gray-800 px-4 py-2 rounded-full text-xs font-bold">2014-Present</span>
                 <h3 class="text-xl mt-4 font-bold">Lead User research at Youthfulie</h3>
-                <ul class="mt-3 text-sm text-gray-500 list-disc ml-4 space-y-2">
+                <ul class="mt-3 text-sm text-gray-500 list-disc ml-4 gap-y-2">
                     <li>Led and defined user research strategy across multiple products to support data-driven decision
                         making.
                     </li>
@@ -222,7 +222,7 @@
             <div class="relative">
                 <span class="border border-gray-800 px-4 py-2 rounded-full text-xs font-bold">2024-Present</span>
                 <h3 class="text-xl mt-4 font-bold">Lead User research at Youthfulie</h3>
-                <ul class="mt-3 text-sm text-gray-500 list-disc ml-4 space-y-2">
+                <ul class="mt-3 text-sm text-gray-500 list-disc ml-4 gap-y-2">
                     <li>Led and defined user research strategy across multiple products to support data-driven decision
                         making.
                     </li>
@@ -313,7 +313,7 @@
         <h2 class="text-4xl text-center mb-16 relative">Projects<div
                 class="h-1 w-12 min-w-20 bg-amber-400 mx-auto mt-3 rounded-full"></div>
         </h2>
-        <div class="max-w-4xl mx-auto space-y-16">
+        <div class="max-w-4xl mx-auto gap-y-16">
             <div
                 class="flex flex-col-reverse md:flex-row justify-between items-center bg-white rounded-3xl overflow-hidden">
                 <div class="p-10 md:p-16">
@@ -489,7 +489,7 @@
             <div class="md:w-5/12">
                 <h3 class="font-bold text-lg mb-8 text-gray-800">Contact Info</h3>
 
-                <div class="space-y-6 mb-12">
+                <div class="space-y-4 md:space-y-6 mb-12">
                     <div class="flex items-center gap-4 text-gray-600">
                         <iconify-icon icon="lucide:mail" class="text-2xl text-gray-800"></iconify-icon>
                         <span class="text-sm">yourmail@gmail.com</span>
@@ -508,7 +508,7 @@
             <div class="md:w-7/12 flex flex-col justify-center items-center text-center">
                 <p class="font-normal text-gray-800 mb-6">You may also find me on these platforms!</p>
 
-                <div class="flex space-x-6 mb-8 justify-center items-center">
+                <div class="flex gap-x-6 mb-8 justify-center items-center">
                     <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer"
                         class="hover:opacity-75 transition-opacity">
                         <img src="./assets/icon_linkedin.svg" alt="LinkedIn" class="w-8 h-8 md:w-18 md:h-8">
