@@ -70,7 +70,7 @@
         </div>
 
         <div x-show="open" @click.away="open = false"
-            class="absolute top-full left-0 w-full bg-white shadow-lg md:hidden flex flex-col items-center py-4 gap-3 border-t border-gray-100 z-50">
+            class="absolute top-full left-0 w-full bg-white shadow-lg md:hidden flex flex-col items-center py-8 gap-3 border-t border-gray-100 z-50">
             <a href="#introduction" @click="open = false; activeTab = 'introduction'"
                 :class="activeTab === 'introduction' ? 'text-amber-500 font-bold' : ''"
                 class="hover:text-gray-500 font-medium">About</a>
